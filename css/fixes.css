@@ -10,8 +10,31 @@
 .round-image-small{
 	height:100px;
 	margin-top:50px;
+	border: 5px solid #2c3e50;
 }
 
 .white-caption-text{
-	color:#FFFFFF;
+	color:#394e65;
+}
+
+.item{
+	height: 260px !important;
+	background: transparent;
+}
+
+.carousel-control.left {
+	background-image: none;
+}
+
+.carousel-control.right {
+	background-image: none;
+}
+
+.carousel-control {
+	color: #2c3e50;
+}
+
+.carousel-indicators li {
+	background-color: #394e65;
+	border: 1px solid #2c3e50;
 }
