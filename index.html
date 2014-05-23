@@ -12,7 +12,8 @@
 
 	    <!-- Bootstrap core CSS -->
 	    <link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/carousel.css" rel="stylesheet">
+		<link href="css/carousel.css" rel="stylesheet">		
+		<link href="css/fixes.css" rel="stylesheet">
 		
 
 	    <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -24,7 +25,6 @@
 	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 	  	<style type="text/css"></style>
-	  	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 	</head>
 
   <body style="background: #f6f6f6;">
@@ -72,7 +72,7 @@
 			</div>
     	</div>
 		<!-- Carousel -->
-		<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+		<div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
 			<!-- Carousel indicators -->
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -120,13 +120,13 @@
 			</div>
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
-					<h3>1. What is Camwerkz?</h3>
+					<h3 class = "small-top-margin">1. What is Camwerkz?</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
-					<h3>1. What is Camwerkz?</h3>
+					<h3 class = "small-top-margin">1. What is Camwerkz?</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
@@ -134,13 +134,13 @@
 		<div class = "row">
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
-					<h3>1. What is Camwerkz?</h3>
+					<h3 class = "small-top-margin">1. What is Camwerkz?</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
-					<h3>1. What is Camwerkz?</h3>
+					<h3 class = "small-top-margin">1. What is Camwerkz?</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
@@ -177,13 +177,13 @@
 		
 
 		<!-- Contact us -->
-		<div class = "row" style="margin-top: 40px;">
-			<div class="col-lg-12">
-				<h1 style="color: #2c3e50; text-align: center;">Contact Us</h1>
-				<hr />
-			</div>
-			<div class = "col-md-4">
-				<div id="map-canvas" style="height: 500px;"></div>
+		<div class="hero-unit">
+			<h2 class="met_bold_one met_color">Stay in touch</h2>
+		</div>
+
+		<div class = "row">
+			<div class = "col-md-6">
+				<div id =  "map-canvas"></div>
 				<p><span>Telephone</span>: <em>+65 64744787 or +65 90406463</em><br>
 				<span>E-Mail</span>: <a href="mailto:admin@camwerkz.com"><em>admin@camwerkz.com</em></a><br>
 				<span>Address</span>:</p>
@@ -208,8 +208,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/carousel.js"></script>
+	<script src="https://maps.google.com/maps/api/js?language=en&amp;sensor=false"></script>
+	<script src="js/gmap.js"></script>v
   </body>
 </html>
