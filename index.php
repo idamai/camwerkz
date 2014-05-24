@@ -1,21 +1,3 @@
-<?php
-	//create connection
-	$con=mysqli_connect("98.130.0.86","C241908_shazwi","Gomc!123","C241908_landing");
-
-	// Check connection
-	if (mysqli_connect_errno()) {
-	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-	}
-
-	if($_POST['name']!=null && $_POST['email']!=null && $_POST['message']!=null) {
-		// escape variables for security
-		$name = mysqli_real_escape_string($con, $_POST['name']);
-		$email = mysqli_real_escape_string($con, $_POST['email']);
-		$message = mysqli_real_escape_string($con, $_POST['message']);
-
-		echo $name; echo $email; echo $message;
-	}
-?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -87,7 +69,7 @@
 						</div>
 						<div class="col-lg-4 col-lg-offset-1" id="form_1">
 							<div class="well" style="border: 0px solid #394e65;">
-					            <form method="POST" action="http://camwerkz.com/landing" accept-charset="UTF-8">
+					            <form method="POST" class="enquiry-form" id = "form1" accept-charset="UTF-8">
 					            	<div class="form-group">
 					                	<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 					              	</div>
@@ -230,15 +212,15 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="well">
-		            <form method="POST" action="http://camwerkz.com/landing" accept-charset="UTF-8">
+		            <form method="POST" class="enquiry-form" id = "form2" accept-charset="UTF-8">
 		            	<div class="form-group">
-		                	<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+		                	<input type="text" class="form-control" id="name2" name="name" placeholder="Name">
 		              	</div>
 		              	<div class="form-group">
-		                	<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+		                	<input type="email" class="form-control" id="email2" name="email" placeholder="Email">
 		              	</div>
 		              	<div class="form-group">
-		                	<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message" style="resize: none;"></textarea>
+		                	<textarea class="form-control" rows="5" id="message2" name="message" placeholder="Message" style="resize: none;"></textarea>
 		              	</div>
 		              
 		              <button type="submit" class="btn btn-lg" style="width: 100%; background: #FF530D; border: #fe4e07; color: white;">Enquire Now</button>
@@ -260,5 +242,6 @@
     <script src="js/bootstrap.min.js"></script>
 	<script src="https://maps.google.com/maps/api/js?language=en&amp;sensor=false"></script>
 	<script src="js/gmap.js"></script>
+	<script src="js/form.js"></script>
   </body>
 </html>
