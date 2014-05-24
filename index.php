@@ -1,3 +1,12 @@
+<?php
+	//create connection
+	$con=mysqli_connect("camwerkz.com","C241908_shazwi","Gomc!123","C241908_landing");
+
+	// Check connection
+	if (mysqli_connect_errno()) {
+	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -69,12 +78,12 @@
 						</div>
 						<div class="col-lg-4 col-lg-offset-1" id="form_1">
 							<div class="well" style="border: 0px solid #394e65;">
-					            <form method="POST" action="http://getfloorspace.com/users" accept-charset="UTF-8">
+					            <form method="POST" action="http://camwerkz.com/landing" accept-charset="UTF-8">
 					            	<div class="form-group">
 					                	<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 					              	</div>
 					              	<div class="form-group">
-					                	<input type="text" class="form-control" id="number" name="number" placeholder="Number">
+					                	<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 					              	</div>
 					              	<div class="form-group">
 					                	<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message" style="resize: none;"></textarea>
@@ -92,7 +101,7 @@
         </div>
         <!-- /.container -->
     </div>
-    <div class="container" style="margin-top: 40px;">
+    <div class="container" style="margin-top: 0px;">
 		<!-- Carousel -->
 		<div class="row" style="margin-top: 40px;">
 			<div class="col-lg-12">
@@ -212,12 +221,12 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="well">
-		            <form method="POST" action="http://getfloorspace.com/users" accept-charset="UTF-8">
+		            <form method="POST" action="http://camwerkz.com/landing" accept-charset="UTF-8">
 		            	<div class="form-group">
 		                	<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 		              	</div>
 		              	<div class="form-group">
-		                	<input type="text" class="form-control" id="number" name="number" placeholder="Number">
+		                	<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 		              	</div>
 		              	<div class="form-group">
 		                	<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message" style="resize: none;"></textarea>
