@@ -1,10 +1,19 @@
 <?php
 	//create connection
-	$con=mysqli_connect("camwerkz.com","C241908_shazwi","Gomc!123","C241908_landing");
+	$con=mysqli_connect("98.130.0.86","C241908_shazwi","Gomc!123","C241908_landing");
 
 	// Check connection
 	if (mysqli_connect_errno()) {
 	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+	}
+
+	if($_POST['name']!=null && $_POST['email']!=null && $_POST['message']!=null) {
+		// escape variables for security
+		$name = mysqli_real_escape_string($con, $_POST['name']);
+		$email = mysqli_real_escape_string($con, $_POST['email']);
+		$message = mysqli_real_escape_string($con, $_POST['message']);
+
+		echo $name; echo $email; echo $message;
 	}
 ?>
 <!DOCTYPE html>
