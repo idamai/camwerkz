@@ -192,16 +192,16 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="well" style="background: white;">
-					<img class="img-cirle" src="img/captainamerica.png" style="float:left; width: 80px;"/>
-					<h3 style="color: #2c3e50; margin-left: 100px;" class="ClearSansBold">Captain America</h3>
-					<p style="color: #394e65; margin-left: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<img class="img-cirle" src="img/usericon.png" style="float:left; width: 70px;"/>
+					<h3 style="color: #2c3e50; margin-left: 90px; margin-top: 0px;" class="ClearSansBold">Sean S.</h3>
+					<p style="color: #394e65; margin-left: 90px;">The Camwerkz team is exceptional! I would give them 6 stars if I could. Dan, Jenny, Jason and the team at Camwerkz go above and beyond to help out their customers. They offer very competitive pricing and outstanding customer service. Our small business has rented equipment from them over the years and we've been happy every single time.  In addition, they have a great network of affiliates and connected the dots to help us with an extra request. I can't say enough positive things about Camwerkz. If you're in Singapore--look no further--Camwerkz is the very best. Thanks again!</p>
 				</div>
 			</div>
 			<div class="col-lg-4">
 				<div class="well" style="background: white;">
-					<img class="img-cirle" src="img/captainamerica.png" style="float:left; width: 80px;"/>
-					<h3 style="color: #2c3e50; margin-left: 100px;" class="ClearSansBold">Captain America</h3>
-					<p style="color: #394e65; margin-left: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<img class="img-cirle" src="img/usericon.png" style="float:left; width: 70px;"/>
+					<h3 style="color: #2c3e50; margin-left: 90px; margin-top: 0px;" class="ClearSansBold">A Google User</h3>
+					<p style="color: #394e65; margin-left: 90px;">Staff are helpful and knowledgeable. Make sure you speak with the director, Dan. He's a treasure trove of information related to this field!</p>
 				</div>
 			</div>
 			<div class="col-lg-4">
