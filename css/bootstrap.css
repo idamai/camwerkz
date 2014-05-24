@@ -1582,6 +1582,11 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.danger:hover > th {
   background-color: #ebcccc;
 }
+@media (max-width: 1200px) {
+  #form_1 {
+    display:none;
+  }
+}
 @media (max-width: 767px) {
   .table-responsive {
     width: 100%;
@@ -3993,6 +3998,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #e7e7e7;
 }
 @media (max-width: 767px) {
+  #form_1 {
+    display:none;
+  }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }

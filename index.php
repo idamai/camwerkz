@@ -15,6 +15,7 @@
 		<link href="css/carousel.css" rel="stylesheet">		
 		<link href="css/fixes.css" rel="stylesheet">
 		<link href="css/landing-page.css" rel="stylesheet">
+		<link href="css/badger.css" rel="stylesheet">
 		
 
 	    <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -47,12 +48,6 @@
   	<div class="navbar navbar-default" role="navigation" style="border-radius: 0px;">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
           <a class="navbar-brand" href="#"><img src="img/logo.png" style="width:120px;"/></a>
         </div>
         <div class="collapse navbar-collapse">
@@ -72,7 +67,7 @@
 							<h1 style="color: white; text-shadow: black 0.1em 0.1em 0.2em;" class="ClearSansBold">Marketing Message</h1>
 							<h4 style="color: white; text-shadow: black 0.1em 0.1em 0.2em;" class="ClearSansLight">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
 						</div>
-						<div class="col-lg-4 col-lg-offset-1">
+						<div class="col-lg-4 col-lg-offset-1" id="form_1">
 							<div class="well" style="border: 0px solid #394e65;">
 					            <form method="POST" action="http://getfloorspace.com/users" accept-charset="UTF-8">
 					            	<div class="form-group">
@@ -101,110 +96,57 @@
 		<!-- Carousel -->
 		<div class="row" style="margin-top: 40px;">
 			<div class="col-lg-12">
-				<h1 style="color: #2c3e50; text-align: center;">Similar Products We Offer</h1>
+				<h1 style="color: #2c3e50; text-align: center;" class="ClearSansBold">Products We Offer</h1>
 				<hr />
 			</div>
 		</div>
-		<div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel" style="margin-top:0px;">
-			<!-- Carousel indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>   
-		   <!-- Carousel items -->
-			<div class="carousel-inner">
-				<div class="active item">
-					<div class = "row">
-						<div class = "col-md-2"></div>
-						<div class = "col-md-2">
-							<img src="img/cam-1.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">Blackmagic 4K</h4>
-						</div>
-						<div class = "col-md-2">
-							<img src="img/cam-2.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">Sony PMW-300</h4>
-						</div>
-						<div class = "col-md-2">
-							<img src="img/cam-3.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">Phase One 645D</h4>
-						</div>
-						<div class = "col-md-2">
-							<img src="img/cam-4.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">RED EPIC-M</h4>
-						</div>
-						<div class = "col-md-2"></div>
-					</div>
+		
+		<div class="row">
+        	<div class="col-lg-3">
+				<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
+					<img src="img/cam-1.jpg" class="img-circle" style="width: 140px;"/>
+					<h4 class="ClearSansBold" style="color: #2c3e50;">Blackmagic 4K</h4>
+					<p class="ClearSansLight" style="color: #394e65;">$540/day</p>
 				</div>
-				<div class="item">
-					<div class = "row">
-						<div class = "col-md-2"></div>
-						<div class = "col-md-2">
-							<img src="img/lens-1.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">Canon Cinema Prime</h4>
-						</div>
-						<div class = "col-md-2">
-							<img src="img/lens-2.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">Carl Zeiss Super Speed</h4>
-						</div>
-						<div class = "col-md-2">
-							<img src="img/lens-3.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">Leica R</h4>
-						</div>
-						<div class = "col-md-2">
-							<img src="img/lens-4.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">Schneider Xenar III</h4>
-						</div>
-						<div class = "col-md-2"></div>
-					</div>
+        	</div>
+        	<div class="col-lg-3">
+				<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
+					<img src="img/cam-2.jpg" class="img-circle" style="width: 140px;"/>
+					<h4 class="ClearSansBold" style="color: #2c3e50;">Sony PMW-300</h4>
+					<p class="ClearSansLight" style="color: #394e65;">$540/day</p>
 				</div>
-				<div class="item">
-					<div class = "row">
-						<div class = "col-md-2"></div>
-						<div class = "col-md-2">
-							<img src="img/acc-1.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">Freefly MOVI M10</h4>
-						</div>
-						<div class = "col-md-2">
-							<img src="img/acc-2.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">ARRI 4K</h4>
-						</div>
-						<div class = "col-md-2">
-							<img src="img/acc-3.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">Marshall 7″ HD</h4>
-						</div>
-						<div class = "col-md-2">
-							<img src="img/acc-4.jpg" alt="Responsive image" class="img-circle round-image-small">
-							<h4 class="white-caption-text">Sennheiser 416</h4>
-						</div>
-						<div class = "col-md-2"></div>
-					</div>
+        	</div>
+        	<div class="col-lg-3">
+				<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
+					<img src="img/cam-3.jpg" class="img-circle" style="width: 140px;"/>
+					<h4 class="ClearSansBold" style="color: #2c3e50;">Phase One 645D</h4>
+					<p class="ClearSansLight" style="color: #394e65;">$540/day</p>
 				</div>
-			</div>
-			<!-- Carousel nav -->
-			<a class="carousel-control left" href="#myCarousel" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left"></span>
-			</a>
-			<a class="carousel-control right" href="#myCarousel" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right"></span>
-			</a>
+        	</div>
+        	<div class="col-lg-3">
+				<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
+					<img src="img/cam-4.jpg" class="img-circle" style="width: 140px;"/>
+					<h4 class="ClearSansBold" style="color: #2c3e50;">RED EPIC-M</h4>
+					<p class="ClearSansLight" style="color: #394e65;">$540/day</p>
+				</div>
+        	</div>
 		</div>
 
 		<!-- FAQ -->
 		<div class = "row" style="margin-top: 40px;">
 			<div class="col-lg-12">
-				<h1 style="color: #2c3e50; text-align: center;">FAQ</h1>
+				<h1 style="color: #2c3e50; text-align: center;" class="ClearSansBold">FAQ</h1>
 				<hr />
 			</div>
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
-					<h3 class = "small-top-margin" style="color: #2c3e50;">1. What are Camwerkz's operating hours?</h3>
+					<h3 class = "small-top-margin ClearSansBold" style="color: #2c3e50;">1. What are Camwerkz's operating hours?</h3>
 					<p style="color: #394e65;">We operate on weekdays from 9:30am to 6:30pm. On weekends, we operate from 9:30am to 3:30pm.</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
-					<h3 class = "small-top-margin" style="color: #2c3e50;">2. How does the booking of equipment work?</h3>
+					<h3 class = "small-top-margin ClearSansBold" style="color: #2c3e50;">2. How does the booking of equipment work?</h3>
 					<p style="color: #394e65;">You may collect the equipment earliest at 4pm 1 day prior to your booking date. You have to return the equipment by 10am 1 day after your booking date.</p>
 				</div>
 			</div>
@@ -212,13 +154,13 @@
 		<div class = "row">
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
-					<h3 class = "small-top-margin" style="color: #2c3e50;">3. What is Camwerkz?</h3>
+					<h3 class = "small-top-margin ClearSansBold" style="color: #2c3e50;">3. What is Camwerkz?</h3>
 					<p style="color: #394e65;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
-					<h3 class = "small-top-margin" style="color: #2c3e50;">4. What is Camwerkz?</h3>
+					<h3 class = "small-top-margin ClearSansBold" style="color: #2c3e50;">4. What is Camwerkz?</h3>
 					<p style="color: #394e65;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
@@ -227,27 +169,27 @@
 		<!-- Testimonials -->
 		<div class="row" style="margin-top: 40px;">
 			<div class="col-lg-12">
-				<h1 style="color: #2c3e50; text-align: center;">Testimonials</h1>
+				<h1 style="color: #2c3e50; text-align: center;" class="ClearSansBold">Testimonials</h1>
 				<hr />
 			</div>
 			<div class="col-lg-4">
 				<div class="well" style="background: white;">
 					<img class="img-cirle" src="img/captainamerica.png" style="float:left; width: 80px;"/>
-					<h3 style="color: #2c3e50; margin-left: 100px;">Captain America</h3>
+					<h3 style="color: #2c3e50; margin-left: 100px;" class="ClearSansBold">Captain America</h3>
 					<p style="color: #394e65; margin-left: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
 			<div class="col-lg-4">
 				<div class="well" style="background: white;">
 					<img class="img-cirle" src="img/captainamerica.png" style="float:left; width: 80px;"/>
-					<h3 style="color: #2c3e50; margin-left: 100px;">Captain America</h3>
+					<h3 style="color: #2c3e50; margin-left: 100px;" class="ClearSansBold">Captain America</h3>
 					<p style="color: #394e65; margin-left: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
 			<div class="col-lg-4">
 				<div class="well" style="background: white;">
 					<img class="img-cirle" src="img/captainamerica.png" style="float:left; width: 80px;"/>
-					<h3 style="color: #2c3e50; margin-left: 100px;">Captain America</h3>
+					<h3 style="color: #2c3e50; margin-left: 100px;" class="ClearSansBold">Captain America</h3>
 					<p style="color: #394e65; margin-left: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
@@ -257,7 +199,7 @@
 		<!-- Contact us -->
 		<div class = "row" style="margin-top: 40px;">
 			<div class="col-lg-12">
-				<h1 style="color: #2c3e50; text-align: center;">Stay in Touch</h1>
+				<h1 style="color: #2c3e50; text-align: center;" class="ClearSansBold">Stay in Touch</h1>
 				<hr />
 			</div>
 			<div class = "col-md-8">
