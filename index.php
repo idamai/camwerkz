@@ -106,28 +106,28 @@
 				<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
 					<img src="img/cam-1.jpg" class="img-circle" style="width: 140px;"/>
 					<h4 class="ClearSansBold" style="color: #2c3e50;">Blackmagic 4K</h4>
-					<p class="ClearSansLight" style="color: #394e65;">$540/day</p>
+					<p class="ClearSansLight" style="color: #394e65;">$160.50/day</p>
 				</div>
         	</div>
         	<div class="col-lg-3">
 				<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
 					<img src="img/cam-2.jpg" class="img-circle" style="width: 140px;"/>
-					<h4 class="ClearSansBold" style="color: #2c3e50;">Sony PMW-300</h4>
-					<p class="ClearSansLight" style="color: #394e65;">$540/day</p>
+					<h4 class="ClearSansBold" style="color: #2c3e50;">Sony F5</h4>
+					<p class="ClearSansLight" style="color: #394e65;">$749.00/day</p>
 				</div>
         	</div>
         	<div class="col-lg-3">
 				<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
 					<img src="img/cam-3.jpg" class="img-circle" style="width: 140px;"/>
 					<h4 class="ClearSansBold" style="color: #2c3e50;">Phase One 645D</h4>
-					<p class="ClearSansLight" style="color: #394e65;">$540/day</p>
+					<p class="ClearSansLight" style="color: #394e65;">$802.50/day</p>
 				</div>
         	</div>
         	<div class="col-lg-3">
 				<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
-					<img src="img/cam-4.jpg" class="img-circle" style="width: 140px;"/>
-					<h4 class="ClearSansBold" style="color: #2c3e50;">RED EPIC-M</h4>
-					<p class="ClearSansLight" style="color: #394e65;">$540/day</p>
+					<img src="img/acc-1.jpg" class="img-circle" style="width: 140px;"/>
+					<h4 class="ClearSansBold" style="color: #2c3e50;">MOVI M10</h4>
+					<p class="ClearSansLight" style="color: #394e65;">$321.00/day</p>
 				</div>
         	</div>
 		</div>
