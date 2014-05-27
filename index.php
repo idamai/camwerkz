@@ -69,7 +69,7 @@
 						</div>
 						<div class="col-lg-4 col-lg-offset-1" id="form_1">
 							<div class="well" style="border: 0px solid #394e65;">
-					            <form method="POST" class="enquiry-form" id = "form1" accept-charset="UTF-8">
+					            <form method="POST" class="enquiry-form" action = "formsubmit.php" id = "form1" accept-charset="UTF-8">
 					            	<div class="form-group">
 					                	<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 					              	</div>
@@ -212,7 +212,7 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="well">
-		            <form method="POST" class="enquiry-form" id = "form2" accept-charset="UTF-8">
+		            <form method="POST" class="enquiry-form" id = "form2" action = "formsubmit.php" accept-charset="UTF-8">
 		            	<div class="form-group">
 		                	<input type="text" class="form-control" id="name2" name="name" placeholder="Name">
 		              	</div>
@@ -242,6 +242,6 @@
     <script src="js/bootstrap.min.js"></script>
 	<script src="https://maps.google.com/maps/api/js?language=en&amp;sensor=false"></script>
 	<script src="js/gmap.js"></script>
-	<script src="js/form.js"></script>
+	<!--<script src="js/form.js"></script>-->
   </body>
 </html>

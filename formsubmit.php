@@ -1,6 +1,6 @@
 <?php
 	//create connection
-	$con=mysqli_connect("localhost","C241908_idamai","winGOMC2014","C241908_landing");
+	$con=mysqli_connect("98.130.0.86","C241908_idamai","winGOMC2014","C241908_landing");
 
 	// Check connection
 	if (mysqli_connect_errno()) {
@@ -17,6 +17,9 @@
 		
 		if (!$con->query($sql)) {
 			echo "Query execution failed: (" . $mysqli->errno . ") " . $mysqli->error;
+		} else {
+			header('Location: http://camwerkz.com');
 		}
+		
 	}	
 ?>
