@@ -33,7 +33,7 @@
   	<div class="navbar navbar-default" role="navigation" style="border-radius: 0px;">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="img/logo.png" style="width:120px;"/></a>
+          <a class="navbar-brand" href="http://www.camwerkz.com"><img src="img/logo.png" style="width:120px;"/></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -124,6 +124,9 @@
 					</div>
 				</a>
         	</div>
+        	<div class="col-lg-12">
+	        	<a href="http://www.camwerkz.com" class="pull-right btn btn-primary">Visit Camwerkz for more products</a>
+	        </div>
 		</div>
 
 		<!-- FAQ -->
