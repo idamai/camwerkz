@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "ClearSansBold";
+    src: url(../fonts/TTF/ClearSans-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "ClearSansLight";
+    src: url(../fonts/TTF/ClearSans-Light.ttf) format("truetype");
+}
+.ClearSansBold {
+	 font-family: "ClearSansBold", Verdana, Tahoma;
+}
+.ClearSansLight {
+	 font-family: "ClearSansLight", Verdana, Tahoma;
+}
+#readMore2 {
+	color: white;
+}
