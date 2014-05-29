@@ -88,38 +88,39 @@
 		
 		<div class="row">
         	<div class="col-lg-3">
-				<a href="http://www.camwerkz.com/product/blackmagic-production-camera/">
+				<a href="http://www.camwerkz.com/product/nikon-d800-2/">
 					<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
-						<img src="img/cam-1.jpg" class="img-circle" style="width: 140px;"/>
-						<h4 class="ClearSansBold" style="color: #2c3e50;">Blackmagic 4K</h4>
-						<p class="ClearSansLight" style="color: #394e65;">$160.50/day</p>
+						<img src="img/nikon-1.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Nikon D800</h4>
+						<br/>
+						<p class="ClearSansLight" style="color: #394e65;">$128.40/day</p>
 					</div>
 				</a>
         	</div>
         	<div class="col-lg-3">
-        		<a href="http://www.camwerkz.com/product/sony-pmw-f55/">
+        		<a href="http://www.camwerkz.com/product/nikon-af-s-nikkor-14-24mm-f2-8g-ed/">
 					<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
-						<img src="img/cam-2.jpg" class="img-circle" style="width: 140px;"/>
-						<h4 class="ClearSansBold" style="color: #2c3e50;">Sony F5</h4>
-						<p class="ClearSansLight" style="color: #394e65;">$749.00/day</p>
+						<img src="img/nikon-2.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Nikon AF-S NIKKOR 14-24mm f/2.8G ED</h4>
+						<p class="ClearSansLight" style="color: #394e65;">$42.80/day</p>
 					</div>
 				</a>
         	</div>
         	<div class="col-lg-3">
-        		<a href="http://www.camwerkz.com/product/pentax-645d/">
+        		<a href="http://www.camwerkz.com/product/nikon-af-s-nikkor-14-24mm-f2-8g-ed/">
 					<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
-						<img src="img/cam-3.jpg" class="img-circle" style="width: 140px;"/>
-						<h4 class="ClearSansBold" style="color: #2c3e50;">Phase One 645D</h4>
-						<p class="ClearSansLight" style="color: #394e65;">$802.50/day</p>
+						<img src="img/nikon-3.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Nikon AF-S NIKKOR 24-70mm f/2.8G ED</h4>
+						<p class="ClearSansLight" style="color: #394e65;">$42.80/day</p>
 					</div>
 				</a>
         	</div>
         	<div class="col-lg-3">
-        		<a href="http://www.camwerkz.com/product/movi-m10/">
+        		<a href="http://www.camwerkz.com/product/nikon-af-s-nikkor-70-200mm-f2-8g-ed-vr-ii/">
 					<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
-						<img src="img/acc-1.jpg" class="img-circle" style="width: 140px;"/>
-						<h4 class="ClearSansBold" style="color: #2c3e50;">MOVI M10</h4>
-						<p class="ClearSansLight" style="color: #394e65;">$321.00/day</p>
+						<img src="img/nikon-4.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Nikon AF-S NIKKOR 70-200mm f/2.8G ED VR II</h4>
+						<p class="ClearSansLight" style="color: #394e65;">$42.80/day</p>
 					</div>
 				</a>
         	</div>
