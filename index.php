@@ -8,7 +8,7 @@
 	    <meta name="author" content="">
 	    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-	    <title>Navbar Template for Bootstrap</title>
+	    <title>Camwerkz</title>
 
 	    <!-- Bootstrap core CSS -->
 	    <link href="css/bootstrap.css" rel="stylesheet">
@@ -16,6 +16,7 @@
 		<link href="css/fixes.css" rel="stylesheet">
 		<link href="css/landing-page.css" rel="stylesheet">
 		<link href="css/badger.css" rel="stylesheet">
+		<link href="css/font.css" rel="stylesheet">
 		
 
 	    <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -26,22 +27,6 @@
 	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	    <![endif]-->
-	  	<style type="text/css">
-			@font-face {
-			    font-family: "ClearSansBold";
-			    src: url(fonts/TTF/ClearSans-Bold.ttf) format("truetype");
-			}
-			@font-face {
-			    font-family: "ClearSansLight";
-			    src: url(fonts/TTF/ClearSans-Light.ttf) format("truetype");
-			}
-			.ClearSansBold {
-				 font-family: "ClearSansBold", Verdana, Tahoma;
-			}
-			.ClearSansLight {
-				 font-family: "ClearSansLight", Verdana, Tahoma;
-			}
-	  	</style>
 	</head>
 
   <body style="background: #f6f6f6;">
@@ -64,8 +49,8 @@
                     <div class="intro-message">
                         <div class="row">
 						<div class="col-lg-6 col-lg-offset-1" style="margin-top: 100px;">
-							<h1 style="color: white; text-shadow: black 0.1em 0.1em 0.2em;" class="ClearSansBold">Marketing Message</h1>
-							<h4 style="color: white; text-shadow: black 0.1em 0.1em 0.2em;" class="ClearSansLight">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+							<h1 style="color: white; text-shadow: black 0.1em 0.1em 0.2em;" class="ClearSansBold">The most preferred video/photography camera rental provider in Singapore.</h1>
+							<h4 style="color: white; text-shadow: black 0.1em 0.1em 0.2em;" class="ClearSansLight">Our services include video camera rental, DSLR cinematography and professional photography equipment rental.Along with our friendly and knowledgeable staff, you can be assured of the best rental experience whether you are a professional or amateur photographer or videographer.Along with our friendly and knowledgeable staff, you can be assured of the best rental experience whether you are a professional or amateur photographer or videographer.</h4>
 						</div>
 						<div class="col-lg-4 col-lg-offset-1" id="form_1">
 							<div class="well" style="border: 0px solid #394e65;">
@@ -103,32 +88,40 @@
 		
 		<div class="row">
         	<div class="col-lg-3">
-				<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
-					<img src="img/cam-1.jpg" class="img-circle" style="width: 140px;"/>
-					<h4 class="ClearSansBold" style="color: #2c3e50;">Blackmagic 4K</h4>
-					<p class="ClearSansLight" style="color: #394e65;">$160.50/day</p>
-				</div>
+				<a href="http://www.camwerkz.com/product/blackmagic-production-camera/">
+					<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
+						<img src="img/cam-1.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Blackmagic 4K</h4>
+						<p class="ClearSansLight" style="color: #394e65;">$160.50/day</p>
+					</div>
+				</a>
         	</div>
         	<div class="col-lg-3">
-				<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
-					<img src="img/cam-2.jpg" class="img-circle" style="width: 140px;"/>
-					<h4 class="ClearSansBold" style="color: #2c3e50;">Sony F5</h4>
-					<p class="ClearSansLight" style="color: #394e65;">$749.00/day</p>
-				</div>
+        		<a href="http://www.camwerkz.com/product/sony-pmw-f55/">
+					<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
+						<img src="img/cam-2.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Sony F5</h4>
+						<p class="ClearSansLight" style="color: #394e65;">$749.00/day</p>
+					</div>
+				</a>
         	</div>
         	<div class="col-lg-3">
-				<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
-					<img src="img/cam-3.jpg" class="img-circle" style="width: 140px;"/>
-					<h4 class="ClearSansBold" style="color: #2c3e50;">Phase One 645D</h4>
-					<p class="ClearSansLight" style="color: #394e65;">$802.50/day</p>
-				</div>
+        		<a href="http://www.camwerkz.com/product/pentax-645d/">
+					<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
+						<img src="img/cam-3.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Phase One 645D</h4>
+						<p class="ClearSansLight" style="color: #394e65;">$802.50/day</p>
+					</div>
+				</a>
         	</div>
         	<div class="col-lg-3">
-				<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
-					<img src="img/acc-1.jpg" class="img-circle" style="width: 140px;"/>
-					<h4 class="ClearSansBold" style="color: #2c3e50;">MOVI M10</h4>
-					<p class="ClearSansLight" style="color: #394e65;">$321.00/day</p>
-				</div>
+        		<a href="http://www.camwerkz.com/product/movi-m10/">
+					<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
+						<img src="img/acc-1.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">MOVI M10</h4>
+						<p class="ClearSansLight" style="color: #394e65;">$321.00/day</p>
+					</div>
+				</a>
         	</div>
 		</div>
 
@@ -154,14 +147,14 @@
 		<div class = "row">
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
-					<h3 class = "small-top-margin ClearSansBold" style="color: #2c3e50;">3. What is Camwerkz?</h3>
-					<p style="color: #394e65;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<h3 class = "small-top-margin ClearSansBold" style="color: #2c3e50;">3. What do I need to provide to make a booking?</h3>
+					<p style="color: #394e65;">Please bring along any government issued form of identity. (e.g NRIC, Passport)</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
-					<h3 class = "small-top-margin ClearSansBold" style="color: #2c3e50;">4. What is Camwerkz?</h3>
-					<p style="color: #394e65;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<h3 class = "small-top-margin ClearSansBold" style="color: #2c3e50;">4. What are the forms of payment Camwerkz accepts?</h3>
+					<p style="color: #394e65;">We accept cash and all major credit cards.</p>
 				</div>
 			</div>
 		</div>
@@ -176,7 +169,7 @@
 				<div class="well" style="background: white;">
 					<img class="img-cirle" src="img/usericon.png" style="float:left; width: 70px;"/>
 					<h3 style="color: #2c3e50; margin-left: 90px; margin-top: 0px;" class="ClearSansBold">Sean S.</h3>
-					<p style="color: #394e65; margin-left: 90px;">The Camwerkz team is exceptional! I would give them 6 stars if I could. Dan, Jenny, Jason and the team at Camwerkz go above and beyond to help out their customers. They offer very competitive pricing and outstanding customer service. Our small business has rented equipment from them over the years and we've been happy every single time.  In addition, they have a great network of affiliates and connected the dots to help us with an extra request. I can't say enough positive things about Camwerkz. If you're in Singapore--look no further--Camwerkz is the very best. Thanks again!</p>
+					<p style="color: #394e65; margin-left: 90px;">The Camwerkz team is exceptional! I would give them 6 stars if I could. Dan, Jenny, Jason and the team at Camwerkz go above and beyond to help out their <a href="#" id="readMore1">Read More</a><span id="testimonial1">customers. They offer very competitive pricing and outstanding customer service. Our small business has rented equipment from them over the years and we've been happy every single time.  In addition, they have a great network of affiliates and connected the dots to help us with an extra request. I can't say enough positive things about Camwerkz. If you're in Singapore--look no further--Camwerkz is the very best. Thanks again!</span></p>
 				</div>
 			</div>
 			<div class="col-lg-4">
@@ -188,9 +181,9 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="well" style="background: white;">
-					<img class="img-cirle" src="img/captainamerica.png" style="float:left; width: 80px;"/>
-					<h3 style="color: #2c3e50; margin-left: 100px;" class="ClearSansBold">Captain America</h3>
-					<p style="color: #394e65; margin-left: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<img class="img-cirle" src="img/yingquan2.jpg" style="float:left; width: 80px;"/>
+					<h3 style="color: #2c3e50; margin-left: 100px; margin-top: 0px;" class="ClearSansBold">Ying Quan</h3>
+					<p style="color: #394e65; margin-left: 100px;">Camwerkz is undoubtly one of the best camera and film equipment rental houses in Singapore. They have a team of professionals that have a wealth <a href="#" id="readMore3">Read More</a><span id="testimonial3">of knowledge about all the equipments and they are happy to share their expertise. I've rented with camwerkz regularly and often times they would help to make better decisions on what equipment to rent. The team goes the extra mile to really understand their customers needs and they are very responsive to assist you if when you encounter problems with the equipments during your shoot. Also to note that Camwerkz is always the first to bring in new gizmos for us to play with such as the red epic and red scarlet-x when they first came out. They'll even teach you how to use it!</span></p>
 				</div>
 			</div>
 		</div>
@@ -202,7 +195,10 @@
 				<h1 style="color: #2c3e50; text-align: center;" class="ClearSansBold">Stay in Touch</h1>
 				<hr />
 			</div>
-			<div class = "col-md-8">
+			<div class="col-lg-4">
+				<img src="img/camwerkzteam.jpg" style="width: 100%;" />
+			</div>
+			<div class = "col-md-4">
 				<div id="map-canvas" style="width: 100%;"></div>
 				<br />
 				<p><strong style="color: #2c3e50;">Telephone</strong>: <em style="color: #394e65;">+65 64744787 or +65 90406463</em><br>
@@ -242,6 +238,7 @@
     <script src="js/bootstrap.min.js"></script>
 	<script src="https://maps.google.com/maps/api/js?language=en&amp;sensor=false"></script>
 	<script src="js/gmap.js"></script>
+	<script src="js/testimonial.js"></script>
 	<!--<script src="js/form.js"></script>-->
   </body>
 </html>
