@@ -88,38 +88,40 @@
 		
 		<div class="row">
         	<div class="col-lg-3">
-				<a href="http://www.camwerkz.com/product/blackmagic-production-camera/">
+				<a href="http://www.camwerkz.com/product/canon-cinema-prime-lens/">
 					<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
-						<img src="img/cam-1.jpg" class="img-circle" style="width: 140px;"/>
-						<h4 class="ClearSansBold" style="color: #2c3e50;">Blackmagic 4K</h4>
-						<p class="ClearSansLight" style="color: #394e65;">$160.50/day</p>
+						<img src="img/lens-1.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Canon Cinema Prime Lens</h4>
+						<br/>
+						<p class="ClearSansLight" style="color: #394e65;">$267.50/day</p>
 					</div>
 				</a>
         	</div>
         	<div class="col-lg-3">
-        		<a href="http://www.camwerkz.com/product/sony-pmw-f55/">
+        		<a href="http://www.camwerkz.com/product/zeiss-super-speed-set/">
 					<div class="well badger-right badger-success" style="background: white; text-align:center;" data-badger="NEW">
-						<img src="img/cam-2.jpg" class="img-circle" style="width: 140px;"/>
-						<h4 class="ClearSansBold" style="color: #2c3e50;">Sony F5</h4>
-						<p class="ClearSansLight" style="color: #394e65;">$749.00/day</p>
+						<img src="img/lens-2.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Carl Zeiss Super Speed Set</h4>
+						<p class="ClearSansLight" style="color: #394e65;">$374.50/day</p>
 					</div>
 				</a>
         	</div>
         	<div class="col-lg-3">
-        		<a href="http://www.camwerkz.com/product/pentax-645d/">
+        		<a href="http://www.camwerkz.com/product/zeiss-otus-eos-mount/">
 					<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
-						<img src="img/cam-3.jpg" class="img-circle" style="width: 140px;"/>
-						<h4 class="ClearSansBold" style="color: #2c3e50;">Phase One 645D</h4>
-						<p class="ClearSansLight" style="color: #394e65;">$802.50/day</p>
+						<img src="img/lens-3.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Zeiss Otus EOS Mount</h4>
+						<br/>
+						<p class="ClearSansLight" style="color: #394e65;">$64.20/day</p>
 					</div>
 				</a>
         	</div>
         	<div class="col-lg-3">
-        		<a href="http://www.camwerkz.com/product/movi-m10/">
+        		<a href="http://www.camwerkz.com/product/scheneider-xenar-iii-cine-prime-set/">
 					<div class="well badger-right badger-white" style="background: white; text-align:center;" data-badger="NEW">
-						<img src="img/acc-1.jpg" class="img-circle" style="width: 140px;"/>
-						<h4 class="ClearSansBold" style="color: #2c3e50;">MOVI M10</h4>
-						<p class="ClearSansLight" style="color: #394e65;">$321.00/day</p>
+						<img src="img/lens-4.jpg" class="img-circle" style="width: 140px;"/>
+						<h4 class="ClearSansBold" style="color: #2c3e50;">Scheneider Xenar III Cine Prime Set</h4>
+						<p class="ClearSansLight" style="color: #394e65;">$374.50/day</p>
 					</div>
 				</a>
         	</div>
