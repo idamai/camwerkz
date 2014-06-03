@@ -81,7 +81,7 @@
 		<!-- Carousel -->
 		<div class="row" style="margin-top: 40px;">
 			<div class="col-lg-12">
-				<h1 style="color: #2c3e50; text-align: center;" class="ClearSansBold">Products We Offer</h1>
+				<h1 style="color: #2c3e50; text-align: center;" class="ClearSansBold">Nikon Products We Offer</h1>
 				<hr />
 			</div>
 		</div>
