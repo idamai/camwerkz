@@ -224,7 +224,7 @@
 		              
 		              <button type="submit" class="btn btn-lg" style="width: 100%; background: #FF530D; border: #fe4e07; color: white;">Enquire Now</button>
 		            </form>
-		            <p style="color: white; margin-top: 10px; margin-bottom: 0px;"><span class="glyphicon glyphicon-info-sign"></span> We at Camwerkz take your enquiry seriously and we will get back to you as soon as we can.</p>
+		            <p style="color: white; margin-top: 10px; margin-bottom: 0px;"><span class="glyphicon glyphicon-info-sign"></span>We will talk to you as soon as possible!</p>
 	          	</div>
 			</div>
 		</div>
