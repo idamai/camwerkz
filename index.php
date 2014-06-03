@@ -49,8 +49,8 @@
                     <div class="intro-message">
                         <div class="row">
 						<div class="col-lg-6 col-lg-offset-1" style="margin-top: 100px;">
-							<h1 style="color: white; text-shadow: black 0.1em 0.1em 0.2em;" class="ClearSansBold">The most preferred video/photography camera rental provider in Singapore.</h1>
-							<h4 style="color: white; text-shadow: black 0.1em 0.1em 0.2em;" class="ClearSansLight">Our services include video camera rental, DSLR cinematography and professional photography equipment rental.Along with our friendly and knowledgeable staff, you can be assured of the best rental experience whether you are a professional or amateur photographer or videographer.Along with our friendly and knowledgeable staff, you can be assured of the best rental experience whether you are a professional or amateur photographer or videographer.</h4>
+							<h1 style="color: white; text-shadow: black 0.1em 0.1em 0.2em;" class="ClearSansBold">The preferred video/photography equipment rental in Singapore.</h1>
+							<h4 style="color: white; text-shadow: black 0.1em 0.1em 0.2em;" class="ClearSansLight">Our services include rental for video cameras, professional photography equipment and DSLR cinematography. Whether you are a professional or amateur photographer/videographer, we have friendly and knowledgeable staff to aid you, and ensure you have a great rental experience with us!</h4>
 						</div>
 						<div class="col-lg-4 col-lg-offset-1" id="form_1">
 							<div class="well" style="border: 0px solid #394e65;">
@@ -67,7 +67,7 @@
 					              
 					              <button type="submit" class="btn btn-lg" style="width: 100%; background: #FF530D; border: #fe4e07; color: white;">Enquire Now</button>
 					            </form>
-					            <p style="color: white; margin-top: 10px; margin-bottom: 0px;"><span class="glyphicon glyphicon-info-sign"></span> We take your enquiry seriously and we will get back to you as soon as we can.</p>
+					            <p style="color: white; margin-top: 10px; margin-bottom: 0px;"><span class="glyphicon glyphicon-info-sign"></span> We will talk to you as soon as we can!</p>
 				          	</div>
 						</div>
 			    	</div>
@@ -125,7 +125,7 @@
 				</a>
         	</div>
         	<div class="col-lg-12">
-	        	<a href="http://www.camwerkz.com" class="pull-right btn btn-primary">Visit Camwerkz for more products</a>
+	        	<a href="http://www.camwerkz.com/equipment-rental/" class="pull-right btn btn-primary">Visit Camwerkz for more products</a>
 	        </div>
 		</div>
 
@@ -144,7 +144,7 @@
 			<div class="col-md-6">
 				<div class="well" style="background: white;">
 					<h3 class = "small-top-margin ClearSansBold" style="color: #2c3e50;">2. How does the booking of equipment work?</h3>
-					<p style="color: #394e65;">You may collect the equipment earliest at 4pm 1 day prior to your booking date. You have to return the equipment by 10am 1 day after your booking date.</p>
+					<p style="color: #394e65;">You may collect the equipment earliest at 4pm, 1 day prior to your booking date. You have to return the equipment by 10am, 1 day after your booking date.</p>
 				</div>
 			</div>
 		</div>
@@ -225,7 +225,7 @@
 		              
 		              <button type="submit" class="btn btn-lg" style="width: 100%; background: #FF530D; border: #fe4e07; color: white;">Enquire Now</button>
 		            </form>
-		            <p style="color: white; margin-top: 10px; margin-bottom: 0px;"><span class="glyphicon glyphicon-info-sign"></span> We at Camwerkz take your enquiry seriously and we will get back to you as soon as we can.</p>
+		            <p style="color: white; margin-top: 10px; margin-bottom: 0px;"><span class="glyphicon glyphicon-info-sign"></span>We will talk to you as soon as possible!</p>
 	          	</div>
 			</div>
 		</div>
@@ -244,5 +244,15 @@
 	<script src="js/gmap.js"></script>
 	<script src="js/testimonial.js"></script>
 	<!--<script src="js/form.js"></script>-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51390204-1', 'camwerkz.com');
+  ga('send', 'pageview');
+
+</script>
   </body>
 </html>
