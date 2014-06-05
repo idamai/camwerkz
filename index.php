@@ -70,13 +70,23 @@
 					            <p style="color: white; margin-top: 10px; margin-bottom: 0px;"><span class="glyphicon glyphicon-info-sign"></span> We will talk to you as soon as we can!</p>
 				          	</div>
 						</div>
+						
 			    	</div>
+					<div class="row">
+							<div class="col-lg-12" style="text-align:center;">
+								<a class="btn btn-lg btn-primary" style="margin-top: 40px; border-radius: 0px; color: #394e65; background-color: #f6f6f6; border-color: #f6f6f6;  border-top-right-radius:1em; border-top-left-radius:1em;">Scroll Down for More</a>
+							</div>
+					</div>	
                     </div>
+					
                 </div>
+
             </div>
         </div>
         <!-- /.container -->
+		
     </div>
+	
     <div class="container" style="margin-top: 0px;">
 		<!-- Carousel -->
 		<div class="row" style="margin-top: 40px;">
